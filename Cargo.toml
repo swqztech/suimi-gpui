@@ -1,0 +1,9 @@
+[package]
+name = "suimi-gpui"
+version = "0.1.0"
+edition = "2021"
+description = "随密 — GPUI Fast 版本地随机生成器"
+
+[dependencies]
+gpui-kit = { version = "0.7.3", features = ["gpui-fast"] }
+rand = "0.8"
