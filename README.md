@@ -14,3 +14,15 @@ target\release\suimi-gpui.exe
 
 - 依赖 `gpui-kit` 的 `gpui-fast` feature，GPU 加速原生 UI
 - 密码 / 用户名 / 网名、强度估计、复制、一次六个等与 egui 版一致
+
+## 打包（绿色版 / 安装包）
+
+```powershell
+.\packaging\build.ps1
+```
+
+```bash
+bash packaging/build.sh
+```
+
+产物：绿色版 ZIP + 安装包 `*-setup.exe`（**NSIS 优先**，或 Inno Setup）。说明见 `packaging/README.md`（与 suimi 相同流程）。

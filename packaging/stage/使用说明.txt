@@ -1,0 +1,10 @@
+随密（GPUI 版）— 本地随机密码 / 用户名 / 网名生成器（绿色版）
+
+使用：
+  双击「随密-GPUI.exe」或「启动.bat」即可运行。
+
+说明：
+  基于 GPUI Fast，需 Windows 10/11 64 位与较新的显卡驱动。
+  若无法启动，请安装「Microsoft Visual C++ 2015-2022 可再发行组件包」x64。
+
+项目：https://github.com/swqztech/suimi-gpui
